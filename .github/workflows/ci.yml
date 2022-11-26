@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: cmingly/base-ubuntu-22.04:latest,cmingly/base-ubuntu-22.04:${{ env.C_VERSION }}
+          tags: cmingly/base-ubuntu:latest,cmingly/base-ubuntu:${{ env.C_VERSION }}
